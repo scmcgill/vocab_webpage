@@ -1,0 +1,15 @@
+## to-do
+- add another table for grammatical info?
+  - base off lemma.id?
+    - language_part_of_speech:
+- reset default ports for http/sql?
+  - is that a thing for httd/sql?
+- separate code into chunks and make a more orderly directory, with subdirectories for langs/functions
+  - use SQL scripts instead of invoking query from page?
+- generate table from query output instead of having rendered as paragraphs
+- how to validate the INSERT statements with PHP to avoid collision in the database?
+  - do a SELECT statement and check against that?
+    - would require reading from the db every time, but I may need to do that anyway if I want the INSERT statements to show upon the page after a successful update
+- copy to termux?
+  - bash script for simple select?
+  - limited privileges for android user
